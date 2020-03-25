@@ -1,0 +1,68 @@
+
+
+.navbar {
+    background-color: grey;
+    height: 50px;
+}
+.main{
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.navLinks{
+    display: none;
+    
+}
+
+
+
+.proj-title{
+    text-align: center;
+}
+
+.proj-screenshot {
+    width: 70%;
+    height: auto;
+}
+.proj-template {
+    width: 80%;
+    border: 1px solid black;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: darkgray;
+
+}
+.proj-img{
+    text-align: center;
+}
+
+.techIcon{
+    width: 2%;
+    height: auto;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .navLinks{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        
+    }  
+    #burger{
+        display: none;
+
+    }  
+    
+  }
+
+
+
+
+
+
+
+
